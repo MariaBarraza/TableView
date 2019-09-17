@@ -12,4 +12,7 @@ import UIKit
 class CeldaAlumnoController : UITableViewCell {
     
     @IBOutlet weak var lblNombre: UILabel!
+    @IBOutlet weak var lblApellido: UILabel!
+    @IBOutlet weak var lblCorreo: UILabel!
+    @IBOutlet weak var lblMatricula: UILabel!
 }

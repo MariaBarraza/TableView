@@ -15,6 +15,7 @@
 		3DBCD54F232C3804002A8974 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCD54E232C3804002A8974 /* TableViewTests.swift */; };
 		3DBCD55A232C3804002A8974 /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCD559232C3804002A8974 /* TableViewUITests.swift */; };
 		3DBCD568232C3F10002A8974 /* CeldaAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCD567232C3F10002A8974 /* CeldaAlumnoController.swift */; };
+		3DD3580C23317C0B00500AA2 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3580B23317C0B00500AA2 /* Alumno.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3DBCD559232C3804002A8974 /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		3DBCD55B232C3804002A8974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DBCD567232C3F10002A8974 /* CeldaAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAlumnoController.swift; sourceTree = "<group>"; };
+		3DD3580B23317C0B00500AA2 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,11 @@
 		3DBCD538232C37FE002A8974 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				3DBCD539232C37FE002A8974 /* AppDelegate.swift */,
-				3DBCD53B232C37FE002A8974 /* ViewController.swift */,
-				3DBCD53D232C37FE002A8974 /* Main.storyboard */,
-				3DBCD540232C3803002A8974 /* Assets.xcassets */,
-				3DBCD542232C3803002A8974 /* LaunchScreen.storyboard */,
-				3DBCD545232C3804002A8974 /* Info.plist */,
-				3DBCD567232C3F10002A8974 /* CeldaAlumnoController.swift */,
+				3DD3580A23317B4200500AA2 /* Storyboards */,
+				3DD3580923317B3300500AA2 /* Models */,
+				3DD3580823317B2E00500AA2 /* App */,
+				3DD3580723317B0200500AA2 /* Resources */,
+				3DD3580623317ADB00500AA2 /* ViewControllers */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -126,6 +126,49 @@
 				3DBCD55B232C3804002A8974 /* Info.plist */,
 			);
 			path = TableViewUITests;
+			sourceTree = "<group>";
+		};
+		3DD3580623317ADB00500AA2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DBCD53B232C37FE002A8974 /* ViewController.swift */,
+				3DBCD567232C3F10002A8974 /* CeldaAlumnoController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3DD3580723317B0200500AA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DBCD540232C3803002A8974 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3DD3580823317B2E00500AA2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3DBCD545232C3804002A8974 /* Info.plist */,
+				3DBCD539232C37FE002A8974 /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		3DD3580923317B3300500AA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3580B23317C0B00500AA2 /* Alumno.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3DD3580A23317B4200500AA2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3DBCD53D232C37FE002A8974 /* Main.storyboard */,
+				3DBCD542232C3803002A8974 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +305,7 @@
 				3DBCD53C232C37FE002A8974 /* ViewController.swift in Sources */,
 				3DBCD53A232C37FE002A8974 /* AppDelegate.swift in Sources */,
 				3DBCD568232C3F10002A8974 /* CeldaAlumnoController.swift in Sources */,
+				3DD3580C23317C0B00500AA2 /* Alumno.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
